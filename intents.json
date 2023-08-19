@@ -1,0 +1,162 @@
+{ 
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "school",
+        "patterns": [
+          "Where does Swastik go to school?",
+          "What university does Swastik attend?",
+          "What degree is Swastik currently pursuing?"
+        ],
+        "responses": [
+          "Swastik is currently pursuing a Bachelor's in Computer Science at Georgia Tech."
+        ]
+      },
+      {
+        "tag": "gym",
+        "patterns": [
+          "How does Swastik work out?",
+          "What does Swastik do at the gym?"
+        ],
+        "responses": [
+          "Swastik started going to the gym around a year ago at the beginning of college, and is currently running an Upper-Lower split, with an unintentional emphasis on upper."
+        ]
+      },
+      {
+        "tag": "music",
+        "patterns": [
+          "What type of music does Swastik listen to?",
+          "What genres of music does Swastik like?",
+          "Who are some of Swastik's favorite artists?"
+        ],
+        "responses": [
+          "Swastik has always had a passion for music, playing a couple instruments throughout his childhood. He listens to a dynamic range of music ranging from The Beatles to Kendrick Lamar.",
+          "Swastik has gained an appreciate a wide range of music, from jazz, blues, rock, R&B, and rap."
+        ]
+      },
+      {
+        "tag": "sports",
+        "patterns": [
+          "What sports does Swastik play?",
+          "What are some of his favorite sports?"
+        ],
+        "responses": [
+          "Swastik has played soccer during middle school and high school, as a central midfielder and whole-heartly believes Messi is better than Ronaldo. He started playing basketball in college, and has frequent games at the on-campus courts."
+        ]
+      },
+      {
+        "tag": "projects",
+        "patterns": [
+          "What are some of Swastik's projects?",
+          "Tell me about his projects."
+        ],
+        "responses": [
+          "Swastik's passion lies within the intersection of computational media, artifical intelligence and product development, evidenced by me. He has also developed an ML-based trading strategy and contributes to a startup as a lead web developer intern."
+        ]
+      },
+      {
+        "tag": "finance",
+        "patterns": [
+          "What does Swastik enjoy about finance?",
+          "What are Swastik's trading strategies?"
+        ],
+        "responses": [
+          "Swastik has always possessed a strong passion in finance and the financial world. He advocates for a safe, but steady trading strategy ultlizing the S&P 500, but his dream project is to construct an algorithmic trading bot."
+        ]
+      },
+      {
+        "tag": "games",
+        "patterns": [
+          "What video games does Swastik play?",
+          "What are some of his favorite video games?",
+          "What type of video games does Swastik play?"
+        ],
+        "responses": [
+          "Swastik doesn't play video games as much anymore, but back in the day he enjoyed games like Minecraft, Valorant, and Rainbow Six Siege."
+        ]
+      },
+      {
+        "tag": "food",
+        "patterns": [
+          "What are some of Swastik's favorite foods?",
+          "What type of foods does Swastik eat?"
+        ],
+        "responses": [
+          "Swastik favorite foods include baked salmon, chicken wings, steak, and chipotle bowls, but he'll eat just about anything."
+        ]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": [
+          "What are Swastik's hobbies?",
+          "What are some of his hobbies?",
+          "Your favorite things to do are?"
+        ],
+        "responses": [
+          "Some of Swastik's hobbies include working out, listening to music, video games, and playing sports. Ask more about one of his hobbies!"
+        ]
+      },
+      {
+        "tag": "interests",
+        "patterns": [
+          "What are Swastik's interests?",
+          "Tell me some of your passions.",
+          "What are his interests?"
+        ],
+        "responses": [
+          "Some of Swastik's interests and passions are project development, finance/trading, and food. Ask more about one of his interests!"
+        ]
+      },
+      {
+        "tag": "intro",
+        "patterns": [
+          "Tell me about Swastik"
+        ],
+        "responses": [
+          "Swastik is a team oriented individual with a knack for tangible product development and always strives to solve harder problems than last time. Ask me about his school, hobbies, interests, or projects."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+} 

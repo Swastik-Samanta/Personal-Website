@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Swastik Samanta Personal Portfolio Website</title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="static/images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software and ML Enthusiast</p>
+                <h1>Hi, I'm <span>Swastik</span>,<br> and I'm glad to have you here!</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="static/images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>My name is Swastik Samanta, and I am a second-year Computer Science major at the Georgia Institute of Technology, set to graduate in May 2025. My threads include Intelligence and Media, and I am interested in Machine Learning, scalable software development, as well as developing my fundamental software engineering skills and making a real-world impact through internships and/or co-ops. 
+                        I'm from a small town in southwest Georgia called Bainbridge, GA and attended Bainbridge High School, where I was part of the marching band, Quiz Bowl, and Soccer teams. Some of my favorite hobbies include drumming, working out, listening to music, and of course, exploring the most captivating software based solutions. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Python, JavaScript, PHP, Java, HTML/CSS, MATLAB, C#, C++, C</li><br>
+                            <li><span>Libraries/Frameworks</span><br>MongoDB, Express.js, React.js, Node.js, (MERN) NumPy, Pandas, Scikit Learn, PyTorch, NLTK, Flask, Tailwind CSS</li><br>
+                            <li><span>Developer Tools</span><br>Jira, Git/GitHub, VSCode, Tableau, Anaconda, Jupyter Notebooks, XAMPP, Microsoft Suite, Linus/Unix, Windows</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>Lead Web Developer Intern | Tatum Games LLC | July 2023 - Present</span>
+                                <br> • Spearheaded a start-up’s product MIKROS, a SaaS SDK that enrolls app developers in a user analytics-sharing ecosystem
+                                <br>  • Harnessed JavaScript, HTML/CSS, PHP, and Tableau to integrate fluid UI/UX features for data visualization
+                                <br>  • Developed PHP and JavaScript unit tests to verify algorithmic calculations and improved the page loads of MIKROS by 14%
+                                <br>  • Captained the Web Development team using AGILE methodologies through JIRA and Git/GitHub and led weekly meetings
+                            </li>
+                            <br>
+                            <li><span>ML Robotics Research | Agile Locomotion and Manipulation | May 2023 - Present</span>
+                                <br> • Member of a research project mentored under Dr. Ye Zhao at Georgia Tech aimed to develop a terrain perceiving bipedal robot
+                                <br>  • Optimized Random Forest algorithms that classify terrain based on foot sensor data on a Raspberry Pi, using Python/PyTorch
+                                <br>  • Architected a Convolutional Neural Network (CNN) for image-based object detection capabilities, achieving 76% accuracy
+                            </li>
+                            <br>
+                            <li><span>Teaching Assistant | Georgia Institute of Technology | May 2023 - August 2023</span>
+                                <br> • TA for over 1000 students in Georgia Tech’s CS 2050 – Intro to Discrete Math CS course
+                                <br>  • Led office hours in which I taught and led discussions on concepts such as time complexity, cryptography, and math induction 
+                            </li>
+                            <br>
+                            <li><span>Team Member | Chick Fil A | January 2021 - July 2022 </span>
+                                <br> • Was a member of a team that specialized in high quality food as well as service.
+                            </li>
+                            <br>
+                            <li><span>Analytical Intern | Danimer Scientific | May 2021 - August 2021</span>
+                                <br> • Interned for a materials company that specializes in biodegradable plastics, performing data analysis for R&D 
+                                <br>  • Utilized Python and Excel to evaluate potential manufacturing inefficiencies from sample data, lowering material waste by 15% 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Georgia Institute of Technology</span><br>BS Computer Science, 3.66 GPA | August 2022 - May 2025</li><br>
+                            <li><span>Relevant Coursework</span><br>Data Structures and Algorithms, OOP in Java, Design and Analysis of Algorithms, Computer Organization and Programming, Probability and Statistics, Multivariable Calculus, Discrete Math, Linear Algebra</li>
+                            <br><li><span>Bainbridge High School</span><br>High School Diploma, 4.00 GPA | August 2018 - May 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------------Porfolio--------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Projects</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="static/images/work-1.png">
+                <div class="layer">
+                    <h3>CNN for Object Detection</h3>
+                    <p>This is the code for the Convolutional Neural Network I constructed at Agile Locomotion and Manipulation for the project's future image based object detection endevors.</p>
+                    <a href="https://github.com/Swastik-Samanta/CNN"><img src="static/images/link.png"></span></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="static/images/work-2.png">
+                <div class="layer">
+                    <h3>Simple ML Trading Strategy</h3>
+                    <p>Far cry from the quants, I created a simple stock trading strategy using machine learning and data analysis from yahoo finance, utilizing Support 
+                        Vector Machines through Scikit-learn to create a Linear Regression model that predicts whether to buy or hold/sell a stock.</p>
+                    <a href="https://github.com/Swastik-Samanta/Machine-Learning-Trading-Strategy"><img src="static/images/link.png"></span></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="static/images/work-3.png">
+                <div class="layer">
+                    <h3>AI Support Bot</h3>
+                    <p>This is the code for the AI support bot I integrated using a Python/Flask backend and JavaScript frontend. Leveraged PyTorch, 
+                        NLTK, and NumPy to create a machine learning model using natural language techniques such as tokenization and stemming.</p>
+                    <a href="https://github.com/Swastik-Samanta/Integrated-Chat-Bot"><img src="static/images/link.png"></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!---------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <img src="static/images/email.png" width="25" height="25">swastik1012@gmail.com</p>
+                <p><img src="static/images/phone.png" width="25" height="25">+1-229-442-3519</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/swastik-samanta/"><img src="static/images/LinkedIn.png" width="25" height="25"></a>
+                    <a href="https://github.com/Swastik-Samanta"><img src="static/images/GitHub.png" width="25" height="25"></a>
+                </div>
+                <a href="static/images/Swastik Samanta Resume.pdf" download class="btn btn2">Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>        
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby1sMe5PDwdWOrksKTDB_I_fobk68_WUAeCldfEWZtAaDLynDjed2PW7q1qdZHDavdkoQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent :)"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+     <div class="container">
+     <div class="chatbox">
+         <div class="chatbox__support">
+             <div class="chatbox__header">
+                 <div class="chatbox__image--header">
+                     <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                 </div>
+                 <div class="chatbox__content--header">
+                     <h4 class="chatbox__heading--header">Virtual Assistant</h4>
+                     <p class="chatbox__description--header">Hey, I'm Swastik's virtual assistant Sophia, just type in "tell me about Swastik" to learn more about him!</p>
+                 </div>
+             </div>
+             <div class="chatbox__messages">
+                 <div></div>
+             </div>
+             <div class="chatbox__footer">
+                 <input type="text" placeholder="Write a message...">
+                 <button class="chatbox__send--footer send__button">Send</button>
+             </div>
+         </div>
+         <div class="chatbox__button">
+             <button><img src="static/images/chatbox-icon.svg" /></button>
+         </div>
+     </div>
+ </div>
+
+</div>
+
+<script>
+    $SCRIPT_ROOT = {{request.script_root|tojson}};
+</script>
+<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+<a href="#" class="btn">Home</a>
+</body>
+</html>
+ 
