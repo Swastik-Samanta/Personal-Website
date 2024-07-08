@@ -1,0 +1,621 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day",
+              "What's up?",
+              "Greetings",
+              "Hi there",
+              "Howdy",
+              "Hey there"
+          ],
+          "responses": [
+              "Hey :-)",
+              "Hello, thanks for visiting",
+              "Hi there, what can I do for you?",
+              "Hi there, how can I help?",
+              "Hello! How can I assist you today?",
+              "Hi! What brings you here today?"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Bye",
+              "See you later",
+              "Goodbye",
+              "Take care",
+              "Catch you later",
+              "Farewell",
+              "Later",
+              "See ya"
+          ],
+          "responses": [
+              "See you later, thanks for visiting",
+              "Have a nice day",
+              "Bye! Come back again soon.",
+              "Take care! Looking forward to your next visit.",
+              "Goodbye! Have a great day!",
+              "Catch you later! Thanks for stopping by."
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful",
+              "Thanks a lot!",
+              "Much appreciated",
+              "Thanks so much",
+              "Thank you very much",
+              "I'm grateful"
+          ],
+          "responses": [
+              "Happy to help!",
+              "Any time!",
+              "My pleasure",
+              "You're welcome!",
+              "Glad I could assist!",
+              "No problem!"
+          ]
+      },
+      {
+          "tag": "school",
+          "patterns": [
+              "Where does Swastik go to school?",
+              "What university does Swastik attend?",
+              "What degree is Swastik currently pursuing?",
+              "Where does he study?",
+              "What college is Swastik at?",
+              "What's Swastik studying?",
+              "Which institution does Swastik go to?",
+              "Swastik's school?"
+          ],
+          "responses": [
+              "Swastik is currently pursuing a Bachelor's and Master's in Computer Science at Georgia Tech.",
+              "Swastik is studying Computer Science at Georgia Tech.",
+              "He is a student at Georgia Tech, working towards a dual degree in Computer Science."
+          ]
+      },
+      {
+          "tag": "gym",
+          "patterns": [
+              "How does Swastik work out?",
+              "What does Swastik do at the gym?",
+              "What's Swastik's workout routine?",
+              "How often does Swastik go to the gym?",
+              "What exercises does Swastik do?",
+              "Does Swastik lift weights?",
+              "What's Swastik's fitness regime?"
+          ],
+          "responses": [
+              "Swastik started going to the gym around a year ago at the beginning of college, and is currently running an Upper-Lower split, with an unintentional emphasis on upper.",
+              "He follows an Upper-Lower split workout routine, focusing on both strength and endurance.",
+              "Swastik's gym routine includes a variety of exercises targeting different muscle groups, typically structured as an Upper-Lower split."
+          ]
+      },
+      {
+          "tag": "music",
+          "patterns": [
+              "What type of music does Swastik listen to?",
+              "What genres of music does Swastik like?",
+              "Who are some of Swastik's favorite artists?",
+              "What's Swastik's favorite music?",
+              "What bands does Swastik enjoy?",
+              "Does Swastik play any instruments?",
+              "What's Swastik's favorite song?",
+              "Who is Swastik's favorite musician?"
+          ],
+          "responses": [
+              "Swastik has always had a passion for music, playing a couple instruments throughout his childhood. He listens to a dynamic range of music ranging from The Beatles to Kendrick Lamar.",
+              "Swastik has gained an appreciation for a wide range of music, from jazz, blues, rock, R&B, and rap.",
+              "His favorite artists include The Beatles, Kendrick Lamar, and many more from various genres."
+          ]
+      },
+      {
+          "tag": "sports",
+          "patterns": [
+              "What sports does Swastik play?",
+              "What are some of his favorite sports?",
+              "Does Swastik play any sports?",
+              "What sports is Swastik interested in?",
+              "What position does Swastik play in soccer?",
+              "Does Swastik play basketball?",
+              "What's Swastik's favorite sport?",
+              "Does Swastik watch sports?"
+          ],
+          "responses": [
+              "Swastik has played soccer during middle school and high school, as a central midfielder and wholeheartedly believes Messi is better than Ronaldo. He started playing basketball in college, and has frequent games at the on-campus courts.",
+              "Swastik enjoys both playing and watching sports, particularly soccer and basketball.",
+              "He often plays basketball at the on-campus courts and has a strong passion for soccer."
+          ]
+      },
+      {
+          "tag": "projects",
+          "patterns": [
+              "What are some of Swastik's projects?",
+              "Tell me about his projects.",
+              "What projects is Swastik working on?",
+              "Can you describe Swastik's projects?",
+              "What kind of projects does Swastik do?",
+              "Is Swastik working on any tech projects?",
+              "What are Swastik's recent projects?"
+          ],
+          "responses": [
+              "Swastik's passion lies within the intersection of computational media, artificial intelligence and product development, evidenced by me.",
+              "Some of his current projects include designing a Full-Stack Youtube Clone, with React/Next.js frontend and GCP for cloud deployed custom microservices.",
+              "Swastik focuses on projects that combine AI, computational media, and product development."
+          ]
+      },
+      {
+          "tag": "finance",
+          "patterns": [
+              "What does Swastik enjoy about finance?",
+              "What are Swastik's trading strategies?",
+              "finance",
+              "stocks",
+              "What is Swastik's approach to investing?",
+              "How does Swastik handle his finances?",
+              "Does Swastik trade stocks?",
+              "What's Swastik's favorite financial strategy?"
+          ],
+          "responses": [
+              "Swastik has always possessed a strong passion in finance and the financial world. He advocates for a safe, but steady trading strategy utilizing the S&P 500, but his dream project is to construct an algorithmic trading bot.",
+              "Swastik enjoys analyzing the stock market and has a steady trading strategy centered around the S&P 500.",
+              "One of his dream projects involves creating an algorithmic trading bot to optimize trading strategies."
+          ]
+      },
+      {
+          "tag": "games",
+          "patterns": [
+              "What video games does Swastik play?",
+              "What are some of his favorite video games?",
+              "What type of video games does Swastik play?",
+              "Does Swastik play any video games?",
+              "What's Swastik's favorite game?",
+              "Does Swastik game?",
+              "What are Swastik's gaming interests?"
+          ],
+          "responses": [
+              "Swastik doesn't play video games as much anymore, but back in the day he enjoyed games like Minecraft, Valorant, and Rainbow Six Siege.",
+              "He used to play Minecraft, Valorant, Rainbow Six Siege, and many others very frequently."
+          ]
+      },
+      {
+          "tag": "food",
+          "patterns": [
+              "What are some of Swastik's favorite foods?",
+              "What type of foods does Swastik eat?",
+              "What's Swastik's favorite food?",
+              "What does Swastik like to eat?",
+              "What's Swastik's go-to meal?",
+              "Does Swastik cook?",
+              "What's Swastik's favorite cuisine?"
+          ],
+          "responses": [
+              "Swastik's favorite foods include baked salmon, chicken wings, and chipotle bowls, but he'll eat just about anything.",
+              "He enjoys a variety of foods, with baked salmon and chicken wings being some of his top choices."
+          ]
+      },
+      {
+          "tag": "hobbies",
+          "patterns": [
+              "What are Swastik's hobbies?",
+              "What are some of his hobbies?",
+              "Your favorite things to do are?",
+              "What does Swastik do for fun?",
+              "How does Swastik spend his free time?",
+              "Does Swastik have any hobbies?",
+              "What does Swastik do in his leisure time?"
+          ],
+          "responses": [
+              "Some of Swastik's hobbies include working out, listening to music, video games, and playing sports. Ask more about one of his hobbies!",
+              "He enjoys working out, playing sports, and listening to music in his free time."
+          ]
+      },
+      {
+          "tag": "interests",
+          "patterns": [
+              "What are Swastik's interests?",
+              "Tell me some of your passions.",
+              "What are his interests?",
+              "What does Swastik find interesting?",
+              "What does Swastik enjoy doing?",
+              "What interests Swastik?",
+              "What fascinates Swastik?"
+          ],
+          "responses": [
+              "Some of Swastik's interests and passions are project development, finance/trading, and food. Ask more about one of his interests!",
+              "He is passionate about technology, finance, and developing innovative solutions, as well as hanging out with friends and having a good time."
+          ]
+      },
+      {
+          "tag": "intro",
+          "patterns": [
+              "Tell me about Swastik",
+              "Who is Swastik?",
+              "Give me an overview of Swastik",
+              "Who are you?",
+              "Introduce Swastik",
+              "Tell me about yourself",
+              "Can you introduce Swastik?",
+              "What can you tell me about Swastik?"
+          ],
+          "responses": [
+              "Swastik is a team-oriented individual with a knack for tangible product development and always strives to solve harder problems than last time. Ask me about his school, hobbies, interests, or projects.",
+              "Swastik is a motivated individual focused on product development, AI, and finance. Feel free to ask about his hobbies, interests, or projects.",
+              "He is passionate about technology, finance, and developing innovative solutions. Ask me more about his various interests and activities."
+          ]
+      },
+      {
+          "tag": "funny",
+          "patterns": [
+              "Tell me a joke!",
+              "Tell me something funny!",
+              "Do you know a joke?",
+              "Can you make me laugh?",
+              "I need a laugh",
+              "Got any jokes?",
+              "Say something funny",
+              "Humor me"
+          ],
+          "responses": [
+              "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+              "What did the buffalo say when his son left for college? Bison.",
+              "Why don't scientists trust atoms? Because they make up everything!",
+              "Why did the scarecrow win an award? Because he was outstanding in his field!"
+          ]
+      },
+      {
+          "tag": "pet",
+          "patterns": [
+              "Does Swastik have a pet?",
+              "What kind of pet does Swastik have?",
+              "Tell me about Swastik's pet",
+              "Does Swastik own any animals?",
+              "What's Swastik's pet's name?",
+              "Does Swastik like animals?"
+          ],
+          "responses": [
+              "Swastik does not own any pets at this time unfortunately, however, he would really love to get a dog in the near future."
+          ]
+      },
+      {
+          "tag": "travel",
+          "patterns": [
+              "Where has Swastik traveled?",
+              "What are some places Swastik has visited?",
+              "Does Swastik like to travel?",
+              "What's Swastik's favorite travel destination?",
+              "Has Swastik traveled abroad?",
+              "What countries has Swastik been to?",
+              "Does Swastik travel a lot?"
+          ],
+          "responses": [
+              "Swastik loves to travel and has visited several states, cities, and landmarks all over the U.S. including NYC, Chicago, Yellowstone National Park, and Miami beaches."
+          ]
+      },
+      {
+          "tag": "books",
+          "patterns": [
+              "What books does Swastik read?",
+              "What are some of Swastik's favorite books?",
+              "Does Swastik like reading?",
+              "What's Swastik's favorite book?",
+              "What genres does Swastik enjoy?",
+              "Can you recommend a book Swastik likes?",
+              "Is Swastik an avid reader?"
+          ],
+          "responses": [
+              "Swastik enjoys reading a variety of genres, including science fiction, non-fiction, and self-improvement. Some of his favorite books are 'Sapiens' by Yuval Noah Harari and 'The Lean Startup' by Eric Ries.",
+              "He loves reading books like 'Sapiens' and 'The Lean Startup' which offer insights into history and business.",
+              "Swastik's reading interests include science fiction, non-fiction, and books on personal development."
+          ]
+      },
+      {
+          "tag": "movies",
+          "patterns": [
+              "What movies does Swastik watch?",
+              "What are some of his favorite movies?",
+              "What's Swastik's favorite movie?",
+              "What type of movies does Swastik like?",
+              "Can you recommend a movie Swastik enjoys?",
+              "What films does Swastik prefer?",
+              "Does Swastik enjoy watching movies?"
+          ],
+          "responses": [
+              "Swastik enjoys a wide range of movies, from action and sci-fi to comedies and documentaries. Some of his favorites include 'Inception', 'Forrest Gump', and 'The Social Network'.",
+              "He likes movies such as 'Inception', 'Forrest Gump', and 'The Social Network' for their compelling stories and excellent direction.",
+              "Swastik's movie preferences include action, sci-fi, and thought-provoking documentaries."
+          ]
+      },
+      {
+          "tag": "family",
+          "patterns": [
+              "Tell me about Swastik's family",
+              "Does Swastik have siblings?",
+              "What's Swastik's family like?",
+              "Does Swastik have any brothers or sisters?",
+              "Who are Swastik's family members?",
+              "Is Swastik close to his family?",
+              "Does Swastik live with his family?"
+          ],
+          "responses": [
+              "Swastik comes from a close-knit family. He has one younger sister and enjoys spending time with his parents and sibling.",
+              "He has a supportive family, including his parents and a younger sister.",
+              "Swastik values family time and often engages in activities with his parents and sister."
+          ]
+      },
+      {
+          "tag": "programming",
+          "patterns": [
+              "What programming languages does Swastik know?",
+              "What coding languages does Swastik use?",
+              "Does Swastik code?",
+              "What programming skills does Swastik have?",
+              "What is Swastik's favorite programming language?",
+              "Is Swastik good at coding?",
+              "Can Swastik program?"
+          ],
+          "responses": [
+              "Swastik is proficient in several programming languages including Python, JavaScript, and C++. He enjoys working on projects that involve AI and web development.",
+              "He has experience with Python, JavaScript, C++, and enjoys using these languages for various projects.",
+              "Swastik's favorite programming language is Python, especially for its versatility and ease of use in AI projects."
+          ]
+      },
+      {
+          "tag": "future_goals",
+          "patterns": [
+              "What are Swastik's future goals?",
+              "What does Swastik want to achieve?",
+              "Where does Swastik see himself in the future?",
+              "What are Swastik's career aspirations?",
+              "What are Swastik's plans for the future?",
+              "What does Swastik aim to accomplish?",
+              "What are Swastik's long-term goals?"
+          ],
+          "responses": [
+              "Swastik aims to work in the field of artificial intelligence and product development, with a long-term goal of starting his own tech company or making a large impact at an established one.",
+              "He aspires to create innovative AI-driven products and eventually launch his own startup or make a large impact at an established one.",
+              "Swastik's career aspirations include becoming a leader in the tech industry and contributing to groundbreaking projects."
+          ]
+      },
+      {
+          "tag": "social_media",
+          "patterns": [
+              "What social media does Swastik use?",
+              "Is Swastik on social media?",
+              "Can I follow Swastik on social media?",
+              "What are Swastik's social media handles?",
+              "Where can I find Swastik online?",
+              "Does Swastik have an Instagram?",
+              "Is Swastik active on social media?"
+          ],
+          "responses": [
+              "Suprisingly Swastik does not use any social media other than LinkedIn, which you can find linked in the Contact Me section of the page :)."
+          ]
+      },
+      {
+          "tag": "quotes",
+          "patterns": [
+              "What's Swastik's favorite quote?",
+              "Can you share a quote Swastik likes?",
+              "What are some quotes Swastik enjoys?",
+              "Does Swastik have a favorite saying?",
+              "Share a quote Swastik loves",
+              "What quote inspires Swastik?"
+          ],
+          "responses": [
+              "One of Swastik's favorite quotes is 'The only way to do great work is to love what you do.' - Steve Jobs.",
+              "He finds inspiration in the quote 'The best way to predict the future is to invent it.' - Alan Kay.",
+              "'Success usually comes to those who are too busy to be looking for it.' - Henry David Thoreau is a quote that Swastik finds very interesting."
+          ]
+      },
+      {
+          "tag": "achievements",
+          "patterns": [
+              "What are Swastik's achievements?",
+              "Has Swastik won any awards?",
+              "Tell me about Swastik's accomplishments",
+              "What has Swastik achieved?",
+              "Has Swastik received any recognition?",
+              "Does Swastik have any accolades?"
+          ],
+          "responses": [
+              "Swastik has received recognition for Faculty Honors and Nation Merit academic awards."
+          ]
+      },
+      {
+          "tag": "weekend_activities",
+          "patterns": [
+              "What does Swastik do on weekends?",
+              "How does Swastik spend his weekends?",
+              "What are Swastik's weekend plans?",
+              "Does Swastik have any weekend hobbies?",
+              "Is Swastik busy on weekends?",
+              "What activities does Swastik enjoy on weekends?"
+          ],
+          "responses": [
+              "On weekends, Swastik enjoys relaxing with friends, coding personal projects, and exploring new places in the city.",
+              "He spends his weekends coding new projects, catching up with friends, and exploring local events.",
+              "Swastik likes to unwind on weekends by working on personal coding projects and socializing with friends."
+          ]
+      },
+      {
+          "tag": "daily_routine",
+          "patterns": [
+              "What's Swastik's daily routine?",
+              "How does Swastik spend his day?",
+              "Can you describe Swastik's daily schedule?",
+              "What does Swastik do daily?",
+              "Does Swastik follow a routine?",
+              "What's a typical day like for Swastik?"
+          ],
+          "responses": [
+              "Swastik starts his day with a morning workout, followed by classes and coding sessions. He ends the day by reviewing his projects and planning for the next day.",
+              "His daily routine includes attending classes, coding projects, and staying active with regular workouts.",
+              "Swastik's day typically involves attending classes, coding new projects, and staying productive with personal and academic pursuits."
+          ]
+      },
+      {
+        "tag": "languages",
+        "patterns": [
+            "What languages does Swastik speak?",
+            "Does Swastik know any other languages?",
+            "What foreign languages does Swastik speak?",
+            "Can Swastik speak any languages besides English?",
+            "Is Swastik multilingual?"
+        ],
+        "responses": [
+            "Swastik is fluent in English and also knows Bengali and Spanish.",
+            "He speaks English fluently and has conversational skills in Bengali and Spanish.",
+            "Swastik is proficient in English and also speaks Bengali and Spanish."
+        ]
+    },
+    {
+        "tag": "technology_stack",
+        "patterns": [
+            "What technology stack does Swastik use?",
+            "Can you list Swastik's tech stack?",
+            "What tools does Swastik use for coding?",
+            "What is Swastik's preferred tech stack?",
+            "Tell me about Swastik's programming tools"
+        ],
+        "responses": [
+            "Swastik's technology stack includes Python for AI development, React for frontend, and Flask for backend.",
+            "He uses Python, React, and Flask as his primary tech stack for developing web applications and AI projects.",
+            "Swastik prefers using Python, React, and Flask for his coding projects due to their versatility and efficiency."
+        ]
+    },
+    {
+        "tag": "mentorship",
+        "patterns": [
+            "Has Swastik been a mentor?",
+            "Is Swastik a mentor to anyone?",
+            "What mentorship roles has Swastik had?",
+            "Has Swastik mentored others?",
+            "Does Swastik participate in mentorship programs?"
+        ],
+        "responses": [
+            "Swastik has mentored several peers during his time as a Captain Web Dev Intern, leading stand-ups and training sessions."
+        ]
+    },
+    {
+        "tag": "volunteering",
+        "patterns": [
+            "Does Swastik volunteer?",
+            "Is Swastik involved in any volunteer work?",
+            "What volunteer activities does Swastik participate in?",
+            "Has Swastik done any volunteering?",
+            "Does Swastik support any charitable causes?"
+        ],
+        "responses": [
+            "Swastik has volunteered with his local library back in high school, and actively helps out the Atlanta community during his internship with U.S. Bank."
+        ]
+    },
+    {
+        "tag": "health",
+        "patterns": [
+            "How does Swastik maintain his health?",
+            "What does Swastik do for fitness?",
+            "Does Swastik follow a health routine?",
+            "Is Swastik health-conscious?",
+            "Does Swastik focus on his physical health?"
+        ],
+        "responses": [
+            "Swastik maintains his health through regular exercise, a balanced diet, and mindfulness practices.",
+            "He prioritizes physical health by exercising regularly and eating nutritious meals.",
+            "Swastik believes in a holistic approach to health, including exercise, proper nutrition, and mental well-being."
+        ]
+    },
+    {
+        "tag": "podcasts",
+        "patterns": [
+            "Does Swastik listen to podcasts?",
+            "What podcasts does Swastik enjoy?",
+            "Can you recommend a podcast Swastik listens to?",
+            "What are Swastik's favorite podcast genres?",
+            "Is Swastik into podcasts?"
+        ],
+        "responses": [
+            "Swastik enjoys podcasts on tech trends, entrepreneurship, and personal development.",
+            "He listens to podcasts like 'The Tim Ferriss Show' and 'How I Built This' for insights into entrepreneurship and innovation.",
+            "Swastik finds podcasts on tech, entrepreneurship, and personal growth inspiring and informative."
+        ]
+    },
+    {
+        "tag": "coding_projects",
+        "patterns": [
+            "What coding projects is Swastik currently working on?",
+            "Can you tell me about Swastik's recent coding projects?",
+            "What are some of Swastik's coding achievements?",
+            "Does Swastik have any ongoing coding projects?",
+            "Tell me about Swastik's latest coding project"
+        ],
+        "responses": [
+            "Swastik is currently working on an Fullstack Youtube Clone with a React/Next.js frontend and GCP to leverage cloud deployed custom micro-services."
+        ]
+    },
+    {
+        "tag": "photography",
+        "patterns": [
+            "Does Swastik enjoy photography?",
+            "Is Swastik interested in photography?",
+            "What kind of photography does Swastik like?",
+            "Has Swastik taken any photography courses?",
+            "Tell me about Swastik's photography hobby"
+        ],
+        "responses": [
+            "Swastik enjoys capturing moments with his camera, focusing on landscapes and street photography.",
+            "He finds joy in photography, especially capturing urban landscapes and candid moments.",
+            "Swastik's photography interests include street photography and capturing architectural details."
+        ]
+    },
+    {
+        "tag": "music_instruments",
+        "patterns": [
+            "Does Swastik play any musical instruments?",
+            "What instruments does Swastik play?"
+        ],
+        "responses": [
+            "Swastik plays the piano and drums, enjoying both classical, rock, and rap music genres.",
+            "He has musical talents in playing the drums and piano, often exploring classical compositions and modern tunes.",
+            "Swastik's musical interests include playing the drums and piano, experimenting with various music genres."
+        ]
+    },
+    {
+        "tag": "coding_style",
+        "patterns": [
+            "Can you describe Swastik's coding practices?",
+            "Does Swastik follow any coding conventions?"
+        ],
+        "responses": [
+            "Swastik follows a structured approach to coding, focusing on clean code principles and modular design.",
+            "He adopts an organized coding style, emphasizing readability and efficiency in his projects.",
+            "Swastik's coding practices reflect his attention to detail and commitment to writing efficient and maintainable code."
+        ]
+    },
+    {
+        "tag": "video_production",
+        "patterns": [
+            "Does Swastik do video production?",
+            "Is Swastik into making videos?",
+            "What kind of videos does Swastik create?",
+            "Has Swastik made any short films?",
+            "Tell me about Swastik's video editing skills"
+        ],
+        "responses": [
+            "Swastik enjoys creating videos, focusing on tech tutorials and short films showcasing his creative ideas.",
+            "He has skills in video production, creating content ranging from tech reviews to short films.",
+            "Swastik's video production interests include creating informative tech videos and experimental short films."
+        ]
+    }
+  ]
+}

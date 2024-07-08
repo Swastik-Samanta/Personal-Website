@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Swastik Samanta Personal Portfolio Website</title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="static/images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>SWE Intern @ US Bank</p>
+                <h1>Hi, I'm <span>Swastik</span>,<br> and I'm glad to have you here!</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="static/images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>My name is Swastik Samanta, and I am a third-year Computer Science major at the Georgia Institute of Technology, my concentrations being in Intelligence and Information-Internetworks. 
+                        I'm expected to graduate May 2025, and from there I'll be pursuing my Masters specializating in Machine Learning through Tech's BS/MS program, finishing up in May 2026.
+                        I am interested in scalable software development, as well as developing my fundamental software engineering and data science skills to make a real-world impact through internships and/or co-ops. 
+                        I'm from a small town in southwest Georgia called Bainbridge, GA and attended Bainbridge High School, where I was part of the marching band, Quiz Bowl, and Soccer teams. 
+                        Some of my favorite hobbies include drumming, working out, listening to music, and playing basketball. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('clubs')">Research/Clubs</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents" id="clubs">
+                        <ul>
+                        <li><span>Research Assistant | LIDAR @ Georgia Tech</span>
+                            <br> • Member of a research project mentored under Dr. Ye Zhao at Georgia Tech aimed to develop a terrain perceiving bipedal robot
+                            <br>  • Read data with Adruino sensors and Raspberry Pi/Teensy micro-controller architecture, utilizing Pandas to
+                            pre-process data and performed feature extraction with ZCR, FFT, mean, min/max for dimensionality reduction
+                            <br> • Implemented ML models in PyTorch, resulting in 99.9% accuracy with Random Forest for terrain classification
+                            <br> • Developed a Gazebo Simulation for the robot in a Linux Ubuntu/ROS Noetic environment with C++
+                        </li>
+                        <li><span>Data Engineer | Big Data Big Impact @ Georgia Tech</span>
+                            <br> • Platform Engineer for a Psychologist Assistant web app utilizing NLP for patient descriptions and a classifier model for demographic data
+                            <br>  •	Employed Python, Pandas, and SQL to facilitate the end-to-end process of analysis, storage, and pre-processing of patient demographic data 
+                            <br>  •	Constructed a REST API via Flask to integrate the backend and ML models to the web app frontend
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>Software Engineer Intern | U.S. Bank </span>
+                                <br> • Developing features for Zelle’s send, request, split, and activity micro-services with React/Node.js and GraphQL
+                                <br>  • Implemented a sorting function on UI side to correct GraphQL calls and ensure sorting by date on activity page
+                                <br>  • Incorporated error module for users attempting to send over their daily limit, caching user data with Apollo Client
+                                <br> • Finetuning LLM to create a Financial Journey Assistant proof-of-concept for the Case Competition in which we
+                                explore solutions to consolidate the Bank’s business lines and present to C-suite
+                            </li>
+                            <li><span>Lead Web Developer Intern | Tatum Games LLC </span>
+                                <br> • Spearheaded a start-up’s product MIKROS, a SaaS SDK that enrolls app developers in a user analytics-sharing ecosystem
+                                <br>  • Harnessed JavaScript + HTML/CSS to integrate UI/UX features for data visualization
+                                <br>  • Developed unit tests achieving 87% codebase coverage, and provided documentation
+                                <br>  • Captained the Web Development team using AGILE methodologies through JIRA and Git/GitHub and led weekly meetings
+                            </li>
+                            <li><span>Teaching Assistant | College of Computing - Georgia Tech </span>
+                                <br> • TA for over 100 students in Georgia Tech’s CS 2050 – Intro to Discrete Math CS course
+                                <br>  • Led office hours in which I taught and led discussions on concepts such as time complexity, cryptography, and math induction 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Georgia Institute of Technology</span><br>BS/MS in Computer Science, 3.76 GPA | August 2022 - May 2026</li><br>
+                            <li><span>Relevant Coursework</span><br>Graduate Machine Learning, Design/Analysis of Algorithms, Data Structures and Algorithms, OOP in Java,
+                                Computer Architecture, Systems/Networks, Probability and Statistics, Multivariable Calculus, Discrete Math, Linear Algebra, Combinatorics</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Python, JavaScript/TypeScript, Java, HTML/CSS, SQL, C/C++</li><br>
+                            <li><span>Libraries/Frameworks</span><br> React, NumPy, Pandas, Scikit-Learn, PyTorch, NLTK, Flask, Next, Node</li><br>
+                            <li><span>Developer Tools</span><br>Jira, Git/GitHub, VSCode, Jupyter Notebooks, Linux/Unix, Docker, Kubernetes, GCP, AWS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------------Porfolio--------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Projects</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="static/images/work-1.png" alt="March Madness Predictor">
+                    <div class="layer">
+                        <h3>March Madness Predictor</h3>
+                        <p>Developed a 2024 MM Bracket by employing numerous ML/DL strategies to achieve 67% first + second round accuracy.</p>
+                        <a href="https://tobynguyen03.github.io/cs7641-group-43/final-report"><img src="static/images/link.png" alt="Link"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="static/images/work-2.png" alt="Simple ML Trading Strategy">
+                    <div class="layer">
+                        <h3>Simple ML Trading Strategy</h3>
+                        <p>Utilizied Support Vector Machines through Scikit-learn to create a Linear Regression model that predicts whether to buy or hold/sell a stock.</p>
+                        <a href="https://github.com/Swastik-Samanta/Machine-Learning-Trading-Strategy"><img src="static/images/link.png" alt="Link"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="static/images/work-3.png" alt="AI Support Bot">
+                    <div class="layer">
+                        <h3>AI Support Bot</h3>
+                        <p>Leveraged PyTorch, NLTK, and NumPy to create a machine learning model using natural language techniques such as tokenization and stemming.</p>
+                        <a href="https://github.com/Swastik-Samanta/Integrated-Chat-Bot"><img src="static/images/link.png" alt="Link"></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+<!---------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <img src="static/images/email.png" width="25" height="25">swastik1012@gmail.com</p>
+                <p><img src="static/images/phone.png" width="25" height="25">+1-229-442-3519</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/swastik-samanta/"><img src="static/images/LinkedIn.png" width="25" height="25"></a>
+                    <a href="https://github.com/Swastik-Samanta"><img src="static/images/GitHub.png" width="25" height="25"></a>
+                </div>
+                <a href="static/images/Swastik Samanta Resume.pdf" class="btn btn2">Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>        
+    </div>
+</div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby1sMe5PDwdWOrksKTDB_I_fobk68_WUAeCldfEWZtAaDLynDjed2PW7q1qdZHDavdkoQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent :)"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+     <div class="container">
+     <div class="chatbox">
+         <div class="chatbox__support">
+             <div class="chatbox__header">
+                 <div class="chatbox__image--header">
+                     <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                 </div>
+                 <div class="chatbox__content--header">
+                     <h4 class="chatbox__heading--header">Virtual Assistant</h4>
+                     <p class="chatbox__description--header">Hey, I'm Swastik's virtual assistant Sophia, just type in "tell me about Swastik" to learn more about him!</p>
+                 </div>
+             </div>
+             <div class="chatbox__messages">
+                 <div></div>
+             </div>
+             <div class="chatbox__footer">
+                 <input type="text" placeholder="Write a message...">
+                 <button class="chatbox__send--footer send__button">Send</button>
+             </div>
+         </div>
+         <div class="chatbox__button">
+             <button><img src="static/images/chatbox-icon.svg" /></button>
+         </div>
+     </div>
+ </div>
+
+</div>
+
+<script>
+    $SCRIPT_ROOT = {{request.script_root|tojson}};
+</script>
+<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+<a href="#" class="btn">Home</a>
+</body>
+</html>
+ 
