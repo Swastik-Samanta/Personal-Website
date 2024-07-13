@@ -1,4 +1,4 @@
 .conda
 .vscode
 __pycache__
-/venv
+/.venv
