@@ -1,9 +1,7 @@
 from flask import Flask, render_template, request, jsonify
-from flask_cors import CORS
 from chat import get_response
 
 application = Flask(__name__)
-CORS(application)
 
 
 @application.get("/")
@@ -19,4 +17,4 @@ def predict():
     return jsonify(message)
 
 if __name__ == "__main__":
-    application.run(debug=True)
+    application.run(host='0.0.0.0', port=5000, debug=True)
