@@ -1,6 +1,6 @@
 import random
 import json
-import torch # type: ignore
+import torch
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
@@ -57,5 +57,5 @@ if __name__ == "__main__":
         if sentence == "quit":
             break
 
-        resp = get_response(sentence). ve
+        resp = get_response(sentence)
         print(resp)
